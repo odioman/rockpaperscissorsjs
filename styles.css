@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aquamarine;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  flex-direction: column;
+  align-items: center;
+}
+
+.objectbtn {
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  float: left;
+}
+
+#Rock,
+#Paper,
+#Scissors {
+  display: inline-block;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  width: 100%;
+}
+
+#Rock:hover,
+#Paper:hover,
+#Scissors:hover {
+  background-color: grey;
+  cursor: pointer;
+}
+
+#playagain {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#playagain:hover {
+  background-color: grey;
+}
+
+.results {
+  border-style: solid;
+  padding: 10px;
+}

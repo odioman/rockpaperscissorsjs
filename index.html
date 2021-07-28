@@ -4,9 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="styles.css">
+    <title>Rock Paper Scissors</title>
 </head>
 <body>
+    <div class="container">
+        <h1>Rock Paper Scissors</h1>
+        <h2>Choose Your Object</h2>
+        <div class="objectbtn">
+            <div class="button"><button id="Rock">Rock</button></div>
+            <div class="button"><button id="Paper">Paper</button></div>
+            <div class="button"><button id="Scissors">Scissors</button></div>
+        </div>
+    
+        <div class="results">
+        
+        <span id="results">The Contest</span>
+        <div class="resultslabel">Player Score: </div>
+        <div class="results">0 - 0</div>
+        <div clas="resultslabel">Computer Score: </div>
+        <div class="results">0 - 0</div>
+        <div class="resultsbox"></div>
+        <span id="rules">First to 5 Wins</span>
+        </div> 
+        <div class="playagain">
+            <button id="playagain">Play Again</button>
+        </div>
+    </div>
     <script src="index.js"></script>
-</body>
+</body>    
 </html>
